@@ -1,0 +1,128 @@
+@import "../../styles/variables.scss";
+
+.container {
+    position: relative;
+    .Footercontainer {
+        position: relative;
+        display: flex;
+        height: 700px;
+        align-items: center;
+        background: $backgroundGreen;
+        z-index: -10;
+    
+        .addressContainer {
+            width: 35%;
+            flex: 0 0 35%;
+            width: 100%;
+            padding-left: 100px;
+    
+            .logoContainer {
+                width: 35%;
+        
+                img {
+                    width: 100%;
+                }
+            }
+            .address {
+                width: 100%;
+                margin-top: 80px;
+                p {
+                    color:$white;
+                    font-family: Montserrat-Medium;
+                    font-size: 18px;
+                    line-height: 21.6px;
+                }
+            }
+    
+            .office {
+                width: 100%;
+    
+                p {
+    
+                    color:$white;
+                    font-family: Montserrat-Medium;
+                    font-size: 18px;
+                    letter-spacing: -4;
+    
+                    &:nth-child(1) {
+                        margin-top: 50px;
+                        color:$white;
+                        font-family: Montserrat-Black;
+                        font-size: 18px;
+                        letter-spacing: 0;
+                    }
+    
+                    &:nth-child(2) {
+                        margin-top: 35px;
+                    }
+                }
+            }
+    
+        }
+        
+        .optionsContainer {
+            width: 80%;
+    
+            .title {
+                position: absolute;
+                top:160px;
+                h1 {
+                    color:$white;
+                    font-family: Montserrat-Bold;
+                    font-size: 24px;
+                    line-height: 28.8px;
+                    text-decoration: underline;
+                    margin-bottom: 80px;
+                    margin-top: -30px;
+                }
+            }
+    
+            .listContainer {
+    
+                .itemstyle {
+                    list-style: none;
+    
+                    &:nth-child(1) {
+                        margin-left: 0;
+                    }
+        
+                    &:nth-child(5) {
+                        margin-right: 0;
+                    }
+    
+                    a {
+                        &:active, &:hover, a:visited {
+                            color: $primary
+                        }
+    
+                        p {
+                            color:$white;
+                            font-family: Montserrat-Medium;
+                            font-size: 18px;
+                            letter-spacing: -4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .secondFooter {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        background: $orange;
+        bottom: 0;
+        height: 78px;
+        width: 100%;
+        margin-left: 35%;
+        padding-left: 40px;
+
+        p {
+            color:$white;
+            font-family: Montserrat-Medium;
+            font-size: 13px;
+            line-height: 15.6px;  
+        }
+    }
+}

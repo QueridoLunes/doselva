@@ -1,0 +1,63 @@
+@import "../../styles/variables.scss";
+
+.container {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    background: $backgroundGreen;
+
+    .logoContainer {
+        width: 20%;
+        padding-left: 3%;
+
+        img {
+            width: auto;
+            height: 85px;
+        }
+    }
+
+    .optionsContainer {
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 5%;
+
+        .listContainer {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+
+            .itemstyle {
+                display: inline-block;
+                min-height: 75px;
+                padding: 1rem;
+                    
+                a {
+                    &:active, &:hover, a:visited {
+                        color: $primary
+                    }
+
+                    p {
+                        color:$white;
+                        font-family: Montserrat-Bold;
+                        font-size: 18px;
+                        line-height: 21.6px;
+                    }
+                }
+                
+                .active {
+                    p {
+                        padding-bottom: 5px;
+                        border-bottom: 4px solid $white;
+                    }
+                }
+            }
+        }
+    }
+    .hamburger {
+        span {
+            background: linear-gradient(to right, $primary, $secondary) 100% 0 !important;
+        }
+    }
+}

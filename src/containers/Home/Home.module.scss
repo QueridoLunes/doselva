@@ -1,0 +1,177 @@
+@import "../../styles/variables.scss";
+
+.container {
+    .homeContainer {
+        min-height: 835px;
+        background-size: cover;
+        background-image: url('../../assets/images/doselva_home.jpg');
+        width: 100%;
+        height: auto;
+
+        .text {
+            position: relative;
+            padding-top: 200px;
+            padding-left: 200px;
+
+            p {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 24px;
+                line-height: 28.8px;
+                letter-spacing: -9;
+                margin-bottom: 130px;
+            }
+
+            h1 {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 64px;
+                line-height: 76.8px;
+            }
+
+            .circleBox {
+                position: absolute;
+                right: 80px;
+                bottom: 40px;
+                .dot {
+                    height: 50px;
+                    width: 50px;
+                    background-color: $white;
+                    border-radius: 50%;
+                    display: flex;
+                    
+                    &:nth-child(2) {
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .messageContainer {
+        position: relative;
+        margin-left: 100px;
+        margin-right: 100px;
+        .messageBox {
+            position: absolute;
+            top:-114px;
+            width: 100%;
+            background: $orange;
+            padding: 80px 0;
+            
+            p {
+                color:$white;
+                font-family:Canopee;
+                font-size: 64px;
+                line-height: 76.8px;
+                text-align: center;
+                letter-spacing: 3px;
+                word-spacing: 10px;
+            }
+        }
+    }
+    .handContainer {
+        background: $backgroundGreen;
+        height: 715px;
+        
+        .handBox {
+            display: flex;
+            padding-top: 114px;
+            height: 100%;
+            margin-left: 100px;
+            margin-right: 100px;
+
+            .handImage {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 500px;
+                margin-left: 50px;
+            }
+
+            .handText {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                min-width: 70%;
+                padding-left: 10%;
+
+                p {
+                    color:$white;
+                    font-family: Montserrat-Bold;
+                    font-size: 64px;
+                    line-height: 80px;
+                    letter-spacing: 2.5px;
+                }
+            }
+        }
+    }
+
+    .bannerContainer {
+        background: $orange;
+        height: 600px;
+        
+        .bannerBox {
+            display: flex;
+            height: 100%;
+            max-width: 100%;
+
+            .firstColumn {
+                width: 35%;
+
+                .firstRow {
+                    height: 50%;
+                    background: $white;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 100px;
+                    
+                    p {
+                        color:$backgroundGreen;
+                        font-family: Montserrat-Bold;
+                        font-size: 42px;
+                        line-height: 50px;
+                    }
+                }
+
+                .secondRow {
+                    height: 50%;
+                    background: $lightBlue;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 100px;
+                    
+                    p {
+                        color:$white;
+                        font-family: Montserrat-Bold;
+                        font-size: 42px;
+                        line-height: 50px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .secondColumn {
+                position: relative;
+                max-width: 65%;
+                width: 100%;
+
+                img {
+                    position: absolute;
+                    top: -60px;
+                }
+
+                p {
+                    position: absolute;
+                    top: 150px;
+                    right: 200px;
+                    color:$white;
+                    font-family: Montserrat-Bold;
+                    font-size: 42px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}

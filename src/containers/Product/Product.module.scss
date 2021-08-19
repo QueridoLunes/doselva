@@ -1,0 +1,115 @@
+@import "../../styles/variables.scss";
+
+.container {
+    .productContainer {
+        position: relative;
+        min-height: 835px;
+        background-size: cover;
+        background: $backgroundGreen;
+        width: 100%;
+        height: auto;
+
+        .text {
+            position: relative;
+            padding-top: 200px;
+            padding-left: 200px;
+            z-index: 100;
+
+            h1 {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 64px;
+                line-height: 76.8px;
+                
+            }
+
+            .circleBox {
+                position: absolute;
+                right: 80px;
+                bottom: 40px;
+                .dot {
+                    height: 50px;
+                    width: 50px;
+                    background-color: $white;
+                    border-radius: 50%;
+                    display: flex;
+                    
+                    &:nth-child(2) {
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .handImage {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            top: -100px;
+            margin-left: 250px;
+        }
+    }
+
+    .messageContainer {
+        position: relative;
+        margin-left: 100px;
+        margin-right: 100px;
+        min-height: 3100px;
+
+        
+        .messageBox {
+            position: absolute;
+            top:-114px;
+            width: 100%;
+            background: $white;
+
+
+            .productList {
+                display: inline-block;
+                .items {
+                    display: flex;
+                    padding: 125px 0;
+                    .images {
+                        width:40%;
+                        display: flex;
+                        justify-content: center;
+                        img {
+                            
+                        }
+                    }
+    
+                    .text {
+                        width:60%;
+                        h1 {
+                            color:$black;
+                            font-family: Montserrat-Bold;
+                            font-size: 42px;
+                            line-height: 84px;
+                            border-left: 5px solid $orange;
+                            padding-left: 30px;
+                        }
+                        
+                        p {
+                            color:$black;
+                            font-family: Montserrat-Medium;
+                            font-size: 21px;
+                            line-height: 25.2px;
+                            padding-left: 30px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .productbanner {
+        min-height: 955px;
+        background-size: cover;
+        background-image: url('../../assets/images/Doselva_Product_07.jpg');
+        width: 100%;
+        height: auto;
+    }
+}
