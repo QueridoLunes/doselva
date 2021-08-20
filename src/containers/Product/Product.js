@@ -18,7 +18,7 @@ const Product = () => {
 
     return (
       <div className={styles.container}>
-          <Header/>
+          <Header backgroundOrange/>
           <div className={styles.productContainer}>
             <div className={styles.text}>
               <h1>Organic spices full of ﬂavor <br/> and goodness</h1>

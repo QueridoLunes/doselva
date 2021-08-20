@@ -2,13 +2,13 @@
 
 .container {
     position: relative;
+    background: $backgroundGreen;
+    z-index: -10;
     .Footercontainer {
         position: relative;
         display: flex;
-        height: 700px;
+        height: 622px;
         align-items: center;
-        background: $backgroundGreen;
-        z-index: -10;
     
         .addressContainer {
             width: 35%;
@@ -108,7 +108,7 @@
     }
     
     .secondFooter {
-        position: absolute;
+        position: relative;
         display: flex;
         align-items: center;
         background: $orange;

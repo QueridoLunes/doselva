@@ -4,7 +4,6 @@
     display: flex;
     height: 250px;
     align-items: center;
-    background: $backgroundGreen;
 
     .logoContainer {
         width: 20%;
@@ -60,4 +59,12 @@
             background: linear-gradient(to right, $primary, $secondary) 100% 0 !important;
         }
     }
+}
+
+.green {
+    background: $backgroundGreen;
+}
+
+.orange {
+    background: $orange;
 }

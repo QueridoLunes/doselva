@@ -111,7 +111,7 @@ const Footer = () => {
       <div className={styles.secondFooter}>
         <p>©2021. All rights reserved — Doselva</p>
       </div>  
-      </div>
+    </div>
     )
   }
   

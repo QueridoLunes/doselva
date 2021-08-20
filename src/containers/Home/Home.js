@@ -58,9 +58,9 @@ const Home = () => {
                 </div>
               </div>
               <div className={styles.secondColumn}>
-                <img src={dosselvabanner} className={styles.image}/>
-                <p>Become a <br/> wholesale partner</p>
-              </div>
+                <img src={dosselvabanner} className={styles.image} alt='home-banner'/>
+                  <p>Become a <br/> wholesale partner</p>
+                </div>
             </div>
           </div>
           <Footer/>       
