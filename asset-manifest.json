@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/doselva/static/css/main.0e5af5a9.chunk.css",
+    "main.js": "/doselva/static/js/main.052d2104.chunk.js",
+    "main.js.map": "/doselva/static/js/main.052d2104.chunk.js.map",
+    "runtime-main.js": "/doselva/static/js/runtime-main.fad6781e.js",
+    "runtime-main.js.map": "/doselva/static/js/runtime-main.fad6781e.js.map",
+    "static/js/2.330c234a.chunk.js": "/doselva/static/js/2.330c234a.chunk.js",
+    "static/js/2.330c234a.chunk.js.map": "/doselva/static/js/2.330c234a.chunk.js.map",
+    "static/js/3.978d76fe.chunk.js": "/doselva/static/js/3.978d76fe.chunk.js",
+    "static/js/3.978d76fe.chunk.js.map": "/doselva/static/js/3.978d76fe.chunk.js.map",
+    "index.html": "/doselva/index.html",
+    "static/css/main.0e5af5a9.chunk.css.map": "/doselva/static/css/main.0e5af5a9.chunk.css.map",
+    "static/js/2.330c234a.chunk.js.LICENSE.txt": "/doselva/static/js/2.330c234a.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/doselva/static/media/canopee.7d1c0c7a.woff",
+    "static/media/Doselva_Product_01.ebed4787.jpg": "/doselva/static/media/Doselva_Product_01.ebed4787.jpg",
+    "static/media/Doselva_Product_02.1ca8eff7.jpg": "/doselva/static/media/Doselva_Product_02.1ca8eff7.jpg",
+    "static/media/Doselva_Product_03.7412ea94.jpg": "/doselva/static/media/Doselva_Product_03.7412ea94.jpg",
+    "static/media/Doselva_Product_04.bfded30b.jpg": "/doselva/static/media/Doselva_Product_04.bfded30b.jpg",
+    "static/media/Doselva_Product_05.58281caa.jpg": "/doselva/static/media/Doselva_Product_05.58281caa.jpg",
+    "static/media/Doselva_Product_06.66f082c7.jpg": "/doselva/static/media/Doselva_Product_06.66f082c7.jpg",
+    "static/media/Product.module.scss": "/doselva/static/media/Doselva_Product_07.5c86236c.jpg",
+    "static/media/doselva_banner2.da771c6b.png": "/doselva/static/media/doselva_banner2.da771c6b.png",
+    "static/media/Home.module.scss": "/doselva/static/media/doselva_home.9989465b.jpg",
+    "static/media/doselva_mano.9e4bfa42.png": "/doselva/static/media/doselva_mano.9e4bfa42.png",
+    "static/media/doselva_mano2.70cf16ab.png": "/doselva/static/media/doselva_mano2.70cf16ab.png",
+    "static/media/dosselvalogo.82f4a081.svg": "/doselva/static/media/dosselvalogo.82f4a081.svg",
+    "static/media/dosselvalogofooter.68930743.svg": "/doselva/static/media/dosselvalogofooter.68930743.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fad6781e.js",
+    "static/js/2.330c234a.chunk.js",
+    "static/css/main.0e5af5a9.chunk.css",
+    "static/js/main.052d2104.chunk.js"
+  ]
+}
