@@ -1,0 +1,124 @@
+@import "../../styles/variables.scss";
+
+.container {
+    .impactContainer {
+        min-height: 835px;
+        background: $backgroundGreen;
+        width: 100%;
+        height: auto;
+
+        .text {
+            position: relative;
+            padding-top: 200px;
+            padding-left: 200px;
+
+            .headerTitle {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 24px;
+                line-height: 28.8px;
+                letter-spacing: -9;
+                margin-bottom: 130px;
+            }
+
+            h1 {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 64px;
+                line-height: 76.8px;
+                margin-bottom: 110px;
+            }
+
+            .subtitle {
+                color:$white;
+                font-family: Montserrat-Medium;
+                font-size: 32px;
+                line-height: 38.4px;
+            }
+
+            img {
+                margin-bottom: 100px;
+            }
+        }
+    }
+
+    .messageContainer {
+        position: relative;
+        margin-left: 100px;
+        margin-right: 100px;
+        .messageBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top:-114px;
+            width: 100%;
+            height: 228px;
+            background: $lightBlue;
+            
+            p {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 42px;
+                line-height: 50.4px;
+            }
+        }
+    }
+
+    .envContainer {
+        min-height: 715px;
+        width: 100%;
+        height: auto;
+        background: $white;
+        
+        .envText {
+            position: relative;
+            padding-top: 200px;
+            padding-left: 200px;
+
+            .envHeaderTitle {
+                color:$backgroundGreen;
+                font-family: Montserrat-Bold;
+                font-size: 24px;
+                line-height: 28.8px;
+                margin-bottom: 100px;
+            }
+
+            h1 {
+                color:$backgroundGreen;
+                font-family: Montserrat-Bold;
+                font-size: 72px;
+                line-height: 86.4px;
+                margin-bottom: 100px;
+            }
+
+            .envSubtitle {
+                color:$black;
+                font-family: Montserrat-Medium;
+                font-size: 32px;
+                line-height: 38.4px;
+                margin-bottom: 80px;
+            }
+
+            img {
+                margin-bottom: 30px;
+            }
+
+            .buttonContainer {
+                display: flex;
+                justify-content: center;
+                margin-right: 200px;
+
+                p {
+                    padding: 50px 60px;
+                    color:$lightBlue;
+                    font-family: Montserrat-Bold;
+                    font-size: 42px;
+                    line-height: 50.4px;
+                    margin-bottom: 250px;
+                    border: 10px solid $lightBlue
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Home.module.scss';
+import {NavLink} from 'react-router-dom';
 import dosselvamano from '../../assets/images/doselva_mano.png';
 import dosselvabanner from '../../assets/images/doselva_banner2.png';
 
@@ -13,7 +14,11 @@ const Home = () => {
           <Header/>
           <div className={styles.homeContainer}>
             <div className={styles.text}>
-              <p>¡Hola! from Doselva</p>
+              <div className={styles.homeHeader}>
+                <p>¡Hola! from Doselva</p>
+                <p>Spices for impact</p>
+              </div>
+              
               <h1>Grown in the forests of Central America <br/> Organic spices full of ﬂavor and goodness</h1>
               <div className={styles.circleBox}>
                 <div className={styles.dot}></div>
@@ -24,7 +29,12 @@ const Home = () => {
           </div>
           <div className={styles.messageContainer}>
             <div className={styles.messageBox}>
-              <p>Engine for social change Partner of small family farmers</p>
+              <NavLink 
+                exact
+                to={'/impact'}
+              >
+                  <p>Engine for social change Partner of small family farmers</p>
+              </NavLink>
             </div>
           </div>
           <div className={styles.handContainer}>

@@ -37,7 +37,7 @@ const FooterSecondMenuList = [
         href: '/about'
     },
     {
-        name: 'Terms of Service',
+        name: 'Terms & Conditions',
         href: '/terms'
     },
     {
@@ -62,8 +62,8 @@ const Footer = () => {
                 </a>
             </div>
             <div className={styles.address}>
-                <p>Calle Guzman,</p>
-                <p>Frente a La Casa de los Tres Mundos</p>
+                <p>Carretera a Los Malacos, de Laboratorios Ceguel,<br/> 300 metros al norte, Granada, </p>
+                <p>Nicaragua</p>
             </div>
             <div className={styles.office}>
                 <p>Administrative Office:</p>
@@ -79,7 +79,6 @@ const Footer = () => {
                             <NavLink 
                                 exact
                                 to={option.href}
-                                activeClassName="active-link"
                             >
                                 <p>{option.name}</p>
                             </NavLink>
