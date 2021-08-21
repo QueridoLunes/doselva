@@ -11,7 +11,7 @@ const Home = () => {
 
     return (
       <div className={styles.container}>
-          <Header/>
+          <Header background='green'/>
           <div className={styles.homeContainer}>
             <div className={styles.text}>
               <div className={styles.homeHeader}>

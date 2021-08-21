@@ -36,7 +36,7 @@ const HeaderMenuList = [
 const Header = (props) => {
 
     return (
-      <div className={(props.backgroundOrange) ? `${styles.container} ${styles.orange}` : `${styles.container} ${styles.green}`}>
+      <div className={`${styles.container} ${styles[props.background]}`}>
         <div className={styles.logoContainer}>
             <NavLink exact to={'/'}>
                 <img src={dosselvalogo} alt="dos-selva-logo"/>

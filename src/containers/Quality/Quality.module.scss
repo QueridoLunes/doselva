@@ -1,0 +1,71 @@
+@import "../../styles/variables.scss";
+
+.container {
+    .qualityContainer {
+        min-height: 835px;
+        background: $lightBlue;
+        width: 100%;
+        height: auto;
+
+        .text {
+            position: relative;
+            padding-top: 200px;
+            padding-left: 200px;
+
+            h1 {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 72px;
+                line-height: 86.4px;
+                margin-bottom: 90px;
+            }
+
+            .subtitle {
+                color:$white;
+                font-family: Montserrat-Medium;
+                font-size: 32px;
+                line-height: 38.4px;
+            }
+
+            .circleBox {
+                position: absolute;
+                right: 80px;
+                top: 200px;
+                .dot {
+                    height: 50px;
+                    width: 50px;
+                    background-color: $white;
+                    border-radius: 50%;
+                    display: flex;
+                    
+                    &:nth-child(2) {
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .carrouselContainer {
+        position: relative;
+        height: 1350px;
+        width: 100%;
+
+        .BtnBack {
+            background: transparent;
+            border: 0 solid;
+            position: absolute;
+            left: 20px;
+            top: 675px
+        }
+
+        .BtnNext {
+            background: transparent;
+            border: 0 solid;
+            position: absolute;
+            right: 20px;
+            top: 675px
+        }
+    }
+}

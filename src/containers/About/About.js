@@ -17,7 +17,7 @@ const About = () => {
 
     return (
       <div className={styles.container}>
-        <Header/>
+        <Header background='green'/>
         <div className={styles.aboutContainer}>
           <div className={styles.video}>
             <video autoPlay="autoplay" muted>
@@ -43,7 +43,7 @@ const About = () => {
                   <div className={styles.imageContainer}>
                     <img src={jeff} alt='jeff'/>
                   </div>
-                  <a href={'#'} className={styles.lnIcon}>
+                  <a href={'https://www.linkedin.com/in/jefferson-shriver-86906316/'} target="_blank" rel="noreferrer" className={styles.lnIcon}>
                     <img src={linkedin} alt='linkedin jeff'/>
                   </a>
                 </div>
@@ -98,7 +98,7 @@ const About = () => {
                   <div className={styles.imageContainer}>
                     <img src={Shayna} alt='Shayna'/>
                   </div>
-                  <a href={'#'} className={styles.lnIcon}>
+                  <a href={'https://www.linkedin.com/in/shaynaharris/'} target="_blank" rel="noreferrer" className={styles.lnIcon}>
                     <img src={linkedin} alt='linkedin jeff'/>
                   </a>
                 </div>

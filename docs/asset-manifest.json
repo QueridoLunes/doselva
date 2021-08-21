@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/doselva/static/css/main.a6731d9e.chunk.css",
-    "main.js": "/doselva/static/js/main.6fea0a4d.chunk.js",
-    "main.js.map": "/doselva/static/js/main.6fea0a4d.chunk.js.map",
-    "runtime-main.js": "/doselva/static/js/runtime-main.70a8eb23.js",
-    "runtime-main.js.map": "/doselva/static/js/runtime-main.70a8eb23.js.map",
-    "static/js/2.43fbf5aa.chunk.js": "/doselva/static/js/2.43fbf5aa.chunk.js",
-    "static/js/2.43fbf5aa.chunk.js.map": "/doselva/static/js/2.43fbf5aa.chunk.js.map",
-    "static/js/3.eb40f910.chunk.js": "/doselva/static/js/3.eb40f910.chunk.js",
-    "static/js/3.eb40f910.chunk.js.map": "/doselva/static/js/3.eb40f910.chunk.js.map",
+    "main.css": "/doselva/static/css/main.794d3fe1.chunk.css",
+    "main.js": "/doselva/static/js/main.1f225e66.chunk.js",
+    "main.js.map": "/doselva/static/js/main.1f225e66.chunk.js.map",
+    "runtime-main.js": "/doselva/static/js/runtime-main.baea26f6.js",
+    "runtime-main.js.map": "/doselva/static/js/runtime-main.baea26f6.js.map",
+    "static/css/2.ad5db7ce.chunk.css": "/doselva/static/css/2.ad5db7ce.chunk.css",
+    "static/js/2.6dd2dcf8.chunk.js": "/doselva/static/js/2.6dd2dcf8.chunk.js",
+    "static/js/2.6dd2dcf8.chunk.js.map": "/doselva/static/js/2.6dd2dcf8.chunk.js.map",
+    "static/js/3.8bfb2378.chunk.js": "/doselva/static/js/3.8bfb2378.chunk.js",
+    "static/js/3.8bfb2378.chunk.js.map": "/doselva/static/js/3.8bfb2378.chunk.js.map",
     "index.html": "/doselva/index.html",
-    "static/css/main.a6731d9e.chunk.css.map": "/doselva/static/css/main.a6731d9e.chunk.css.map",
-    "static/js/2.43fbf5aa.chunk.js.LICENSE.txt": "/doselva/static/js/2.43fbf5aa.chunk.js.LICENSE.txt",
+    "static/css/2.ad5db7ce.chunk.css.map": "/doselva/static/css/2.ad5db7ce.chunk.css.map",
+    "static/css/main.794d3fe1.chunk.css.map": "/doselva/static/css/main.794d3fe1.chunk.css.map",
+    "static/js/2.6dd2dcf8.chunk.js.LICENSE.txt": "/doselva/static/js/2.6dd2dcf8.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/doselva/static/media/canopee.7d1c0c7a.woff",
     "static/media/DOSELVA_VideoWEB.e440e900.mp4": "/doselva/static/media/DOSELVA_VideoWEB.e440e900.mp4",
     "static/media/Doselva_About_Us_01.bf73882b.jpg": "/doselva/static/media/Doselva_About_Us_01.bf73882b.jpg",
@@ -26,6 +28,12 @@
     "static/media/Doselva_Product_05.58281caa.jpg": "/doselva/static/media/Doselva_Product_05.58281caa.jpg",
     "static/media/Doselva_Product_06.66f082c7.jpg": "/doselva/static/media/Doselva_Product_06.66f082c7.jpg",
     "static/media/Product.module.scss": "/doselva/static/media/Doselva_Product_07.5c86236c.jpg",
+    "static/media/Doselva_Quality_01.7b19eb26.jpg": "/doselva/static/media/Doselva_Quality_01.7b19eb26.jpg",
+    "static/media/Doselva_Quality_02.43811d19.jpg": "/doselva/static/media/Doselva_Quality_02.43811d19.jpg",
+    "static/media/Doselva_Quality_03.4957ce8b.jpg": "/doselva/static/media/Doselva_Quality_03.4957ce8b.jpg",
+    "static/media/Doselva_Quality_04.b470cd92.jpg": "/doselva/static/media/Doselva_Quality_04.b470cd92.jpg",
+    "static/media/Doselva_Quality_05.80b79c22.jpg": "/doselva/static/media/Doselva_Quality_05.80b79c22.jpg",
+    "static/media/Doselva_Quality_06.d87be335.jpg": "/doselva/static/media/Doselva_Quality_06.d87be335.jpg",
     "static/media/doselva_banner2.da771c6b.png": "/doselva/static/media/doselva_banner2.da771c6b.png",
     "static/media/Home.module.scss": "/doselva/static/media/doselva_home.9989465b.jpg",
     "static/media/doselva_mano.9e4bfa42.png": "/doselva/static/media/doselva_mano.9e4bfa42.png",
@@ -34,9 +42,10 @@
     "static/media/dosselvalogofooter.68930743.svg": "/doselva/static/media/dosselvalogofooter.68930743.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.70a8eb23.js",
-    "static/js/2.43fbf5aa.chunk.js",
-    "static/css/main.a6731d9e.chunk.css",
-    "static/js/main.6fea0a4d.chunk.js"
+    "static/js/runtime-main.baea26f6.js",
+    "static/css/2.ad5db7ce.chunk.css",
+    "static/js/2.6dd2dcf8.chunk.js",
+    "static/css/main.794d3fe1.chunk.css",
+    "static/js/main.1f225e66.chunk.js"
   ]
 }

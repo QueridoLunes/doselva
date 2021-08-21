@@ -7,7 +7,7 @@ const Stories = () => {
 
     return (
       <div className={styles.container}>
-          <Header/>
+          <Header background='green'/>
         <p>Stories</p>        
       </div>
     )

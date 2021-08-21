@@ -7,7 +7,7 @@ const Contact = () => {
 
     return (
       <div className={styles.container}>
-          <Header/>
+          <Header background='green'/>
         <p>Contact</p>        
       </div>
     )

@@ -12,7 +12,7 @@ const Impact = () => {
 
     return (
       <div className={styles.container}>
-        <Header/>
+        <Header background='green'/>
         <div className={styles.impactContainer}>
           <div className={styles.text}>
             <p className={styles.headerTitle}>Social Impact</p>
