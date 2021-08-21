@@ -6,6 +6,19 @@
         width: 100%;
         height: auto;
 
+        .video {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            video {
+                height: 700px;
+                width: auto;
+            }
+        }
+
+
         .text {
             position: relative;
             padding-top: 200px;

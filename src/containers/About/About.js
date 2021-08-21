@@ -11,6 +11,8 @@ import jeff from '../../assets/images/Doselva_About_Us_01.jpg';
 import Aaron from '../../assets/images/Doselva_About_Us_02.jpg';
 import Shayna from '../../assets/images/Doselva_About_Us_03.jpg';
 
+import video from '../../assets/DOSELVA_VideoWEB.mp4';
+
 const About = () => {
 
     return (
@@ -18,7 +20,10 @@ const About = () => {
         <Header/>
         <div className={styles.aboutContainer}>
           <div className={styles.video}>
-            <p>LINK AL VIDEO</p>
+            <video autoPlay="autoplay" muted>
+                <source src={video} type="video/mp4"/>
+                Tu navegador no soporta HTML5 video.
+            </video>
           </div>
         </div>
         <div className={styles.messageContainer}>
