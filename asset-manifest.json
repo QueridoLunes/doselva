@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/doselva/static/css/main.d4098cb0.chunk.css",
-    "main.js": "/doselva/static/js/main.c76720da.chunk.js",
-    "main.js.map": "/doselva/static/js/main.c76720da.chunk.js.map",
-    "runtime-main.js": "/doselva/static/js/runtime-main.fad6781e.js",
-    "runtime-main.js.map": "/doselva/static/js/runtime-main.fad6781e.js.map",
-    "static/js/2.fe2d1af7.chunk.js": "/doselva/static/js/2.fe2d1af7.chunk.js",
-    "static/js/2.fe2d1af7.chunk.js.map": "/doselva/static/js/2.fe2d1af7.chunk.js.map",
-    "static/js/3.978d76fe.chunk.js": "/doselva/static/js/3.978d76fe.chunk.js",
-    "static/js/3.978d76fe.chunk.js.map": "/doselva/static/js/3.978d76fe.chunk.js.map",
+    "main.css": "/doselva/static/css/main.a6731d9e.chunk.css",
+    "main.js": "/doselva/static/js/main.6fea0a4d.chunk.js",
+    "main.js.map": "/doselva/static/js/main.6fea0a4d.chunk.js.map",
+    "runtime-main.js": "/doselva/static/js/runtime-main.70a8eb23.js",
+    "runtime-main.js.map": "/doselva/static/js/runtime-main.70a8eb23.js.map",
+    "static/js/2.43fbf5aa.chunk.js": "/doselva/static/js/2.43fbf5aa.chunk.js",
+    "static/js/2.43fbf5aa.chunk.js.map": "/doselva/static/js/2.43fbf5aa.chunk.js.map",
+    "static/js/3.eb40f910.chunk.js": "/doselva/static/js/3.eb40f910.chunk.js",
+    "static/js/3.eb40f910.chunk.js.map": "/doselva/static/js/3.eb40f910.chunk.js.map",
     "index.html": "/doselva/index.html",
-    "static/css/main.d4098cb0.chunk.css.map": "/doselva/static/css/main.d4098cb0.chunk.css.map",
-    "static/js/2.fe2d1af7.chunk.js.LICENSE.txt": "/doselva/static/js/2.fe2d1af7.chunk.js.LICENSE.txt",
+    "static/css/main.a6731d9e.chunk.css.map": "/doselva/static/css/main.a6731d9e.chunk.css.map",
+    "static/js/2.43fbf5aa.chunk.js.LICENSE.txt": "/doselva/static/js/2.43fbf5aa.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/doselva/static/media/canopee.7d1c0c7a.woff",
-    "static/media/DOSELVA_VideoWEB.7fb2abef.mp4": "/doselva/static/media/DOSELVA_VideoWEB.7fb2abef.mp4",
+    "static/media/DOSELVA_VideoWEB.e440e900.mp4": "/doselva/static/media/DOSELVA_VideoWEB.e440e900.mp4",
     "static/media/Doselva_About_Us_01.bf73882b.jpg": "/doselva/static/media/Doselva_About_Us_01.bf73882b.jpg",
     "static/media/Doselva_About_Us_02.0356d7ed.jpg": "/doselva/static/media/Doselva_About_Us_02.0356d7ed.jpg",
     "static/media/Doselva_About_Us_03.d6d53ab9.jpg": "/doselva/static/media/Doselva_About_Us_03.d6d53ab9.jpg",
@@ -34,9 +34,9 @@
     "static/media/dosselvalogofooter.68930743.svg": "/doselva/static/media/dosselvalogofooter.68930743.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fad6781e.js",
-    "static/js/2.fe2d1af7.chunk.js",
-    "static/css/main.d4098cb0.chunk.css",
-    "static/js/main.c76720da.chunk.js"
+    "static/js/runtime-main.70a8eb23.js",
+    "static/js/2.43fbf5aa.chunk.js",
+    "static/css/main.a6731d9e.chunk.css",
+    "static/js/main.6fea0a4d.chunk.js"
   ]
 }
