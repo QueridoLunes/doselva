@@ -1,0 +1,79 @@
+@import "../../styles/variables.scss";
+
+.container {
+    .contactContainer {
+        min-height: 835px;
+        background: $backgroundGreen;
+        width: 100%;
+        height: auto;
+
+        .text {
+            position: relative;
+            padding-top: 200px;
+            padding-left: 200px;
+            padding-bottom: 150px;
+
+            h1 {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 72px;
+                line-height: 86.4px;
+                margin-bottom: 100px;
+            }
+
+            .subtitle {
+                color:$white;
+                font-family: Montserrat-Medium;
+                font-size: 32px;
+                line-height: 38.4px;
+            }
+        }
+    }
+
+    .contactSection {
+        display: flex;
+        justify-content: space-between;
+        min-height: 770px;
+        background: $orange;
+
+        .data {
+            min-width: 50%;
+            padding-top: 200px;
+            padding-left: 200px;
+            
+            .mail {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 72px;
+                line-height: 86.4px;
+                margin-bottom: 100px;
+                a {
+                    color: $white;
+                }
+            }
+
+            .whatsapp {
+                color:$white;
+                font-family: Montserrat-Bold;
+                font-size: 72px;
+                line-height: 86.4px;
+                margin-bottom: 180px;
+                a {
+                    color: $white;
+                }
+            }
+        }
+
+        .image {
+            padding-top: 60px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+        }
+    }
+}

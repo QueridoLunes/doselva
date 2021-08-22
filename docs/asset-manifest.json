@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/doselva/static/css/main.794d3fe1.chunk.css",
-    "main.js": "/doselva/static/js/main.1f225e66.chunk.js",
-    "main.js.map": "/doselva/static/js/main.1f225e66.chunk.js.map",
+    "main.css": "/doselva/static/css/main.12da47e1.chunk.css",
+    "main.js": "/doselva/static/js/main.7f373c06.chunk.js",
+    "main.js.map": "/doselva/static/js/main.7f373c06.chunk.js.map",
     "runtime-main.js": "/doselva/static/js/runtime-main.baea26f6.js",
     "runtime-main.js.map": "/doselva/static/js/runtime-main.baea26f6.js.map",
     "static/css/2.ad5db7ce.chunk.css": "/doselva/static/css/2.ad5db7ce.chunk.css",
-    "static/js/2.6dd2dcf8.chunk.js": "/doselva/static/js/2.6dd2dcf8.chunk.js",
-    "static/js/2.6dd2dcf8.chunk.js.map": "/doselva/static/js/2.6dd2dcf8.chunk.js.map",
+    "static/js/2.3871c8a9.chunk.js": "/doselva/static/js/2.3871c8a9.chunk.js",
+    "static/js/2.3871c8a9.chunk.js.map": "/doselva/static/js/2.3871c8a9.chunk.js.map",
     "static/js/3.8bfb2378.chunk.js": "/doselva/static/js/3.8bfb2378.chunk.js",
     "static/js/3.8bfb2378.chunk.js.map": "/doselva/static/js/3.8bfb2378.chunk.js.map",
     "index.html": "/doselva/index.html",
     "static/css/2.ad5db7ce.chunk.css.map": "/doselva/static/css/2.ad5db7ce.chunk.css.map",
-    "static/css/main.794d3fe1.chunk.css.map": "/doselva/static/css/main.794d3fe1.chunk.css.map",
-    "static/js/2.6dd2dcf8.chunk.js.LICENSE.txt": "/doselva/static/js/2.6dd2dcf8.chunk.js.LICENSE.txt",
+    "static/css/main.12da47e1.chunk.css.map": "/doselva/static/css/main.12da47e1.chunk.css.map",
+    "static/js/2.3871c8a9.chunk.js.LICENSE.txt": "/doselva/static/js/2.3871c8a9.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/doselva/static/media/canopee.7d1c0c7a.woff",
     "static/media/DOSELVA_VideoWEB.e440e900.mp4": "/doselva/static/media/DOSELVA_VideoWEB.e440e900.mp4",
     "static/media/Doselva_About_Us_01.bf73882b.jpg": "/doselva/static/media/Doselva_About_Us_01.bf73882b.jpg",
     "static/media/Doselva_About_Us_02.0356d7ed.jpg": "/doselva/static/media/Doselva_About_Us_02.0356d7ed.jpg",
     "static/media/Doselva_About_Us_03.d6d53ab9.jpg": "/doselva/static/media/Doselva_About_Us_03.d6d53ab9.jpg",
+    "static/media/Doselva_About_Us_04.d04eaa19.png": "/doselva/static/media/Doselva_About_Us_04.d04eaa19.png",
+    "static/media/Doselva_About_Us_05.fe6aee74.png": "/doselva/static/media/Doselva_About_Us_05.fe6aee74.png",
     "static/media/Doselva_Impact.6ee14e0c.jpg": "/doselva/static/media/Doselva_Impact.6ee14e0c.jpg",
     "static/media/Doselva_Impact_02.9e3fee15.jpg": "/doselva/static/media/Doselva_Impact_02.9e3fee15.jpg",
     "static/media/Doselva_Product_01.ebed4787.jpg": "/doselva/static/media/Doselva_Product_01.ebed4787.jpg",
@@ -44,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.baea26f6.js",
     "static/css/2.ad5db7ce.chunk.css",
-    "static/js/2.6dd2dcf8.chunk.js",
-    "static/css/main.794d3fe1.chunk.css",
-    "static/js/main.1f225e66.chunk.js"
+    "static/js/2.3871c8a9.chunk.js",
+    "static/css/main.12da47e1.chunk.css",
+    "static/js/main.7f373c06.chunk.js"
   ]
 }
